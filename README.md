@@ -9,8 +9,8 @@ A collection of git hooks for kotlin to be used with the [pre-commit framework](
 
 | Hook name | Version | Description                                                                                  |
 |-----------|---------|----------------------------------------------------------------------------------------------|
-| `detekt`  | 1.22.0  | Runs [Detekt](https://detekt.github.io/detekt/) static code analyzer on Kotlin source files. |
-| `ktlint`  | 0.49.0  | Runs [Ktlint](https://ktlint.github.io/) to lint and reformat Kotlin source code.            |
+| `detekt`  | 1.23.0  | Runs [Detekt](https://detekt.github.io/detekt/) static code analyzer on Kotlin source files. |
+| `ktlint`  | 0.50.0  | Runs [Ktlint](https://ktlint.github.io/) to lint and reformat Kotlin source code.            |
 
 ## Requirements
 
@@ -74,3 +74,9 @@ You can also use Coursier to get the list of options.
 cs launch com.pinterest:ktlint:v.x.x.x -M com.pinterest.ktlint.Main -- --help
 ```
 
+### Development
+
+try the pre-commit with
+```
+pre-commit try-repo PROJECT_PATH/pre-commit-kotlin -a  
+```
