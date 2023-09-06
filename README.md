@@ -9,8 +9,8 @@ A collection of git hooks for kotlin to be used with the [pre-commit framework](
 
 | Hook name | Version | Description                                                                                  |
 |-----------|---------|----------------------------------------------------------------------------------------------|
-| `detekt`  | 1.23.0  | Runs [Detekt](https://detekt.github.io/detekt/) static code analyzer on Kotlin source files. |
-| `ktlint`  | 0.50.0  | Runs [Ktlint](https://ktlint.github.io/) to lint and reformat Kotlin source code.            |
+| `detekt`  | 1.23.1  | Runs [Detekt](https://detekt.github.io/detekt/) static code analyzer on Kotlin source files. |
+| `ktlint`  | 1.0.0   | Runs [Ktlint](https://ktlint.github.io/) to lint and reformat Kotlin source code.            |
 
 ## Requirements
 
