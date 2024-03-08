@@ -71,7 +71,7 @@ Other [CLI](https://ktlint.github.io/#getting-started) arguments are also suppor
 You can also use Coursier to get the list of options.
 
 ```
-cs launch com.pinterest:ktlint:v.x.x.x -M com.pinterest.ktlint.Main -- --help
+cs launch com.pinterest.ktlint:ktlint-cli:x.x.x -M com.pinterest.ktlint.Main -- --help
 ```
 
 ### Development
