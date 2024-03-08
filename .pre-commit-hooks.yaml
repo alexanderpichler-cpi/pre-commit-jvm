@@ -6,7 +6,6 @@
   entry: detekt
   pass_filenames: false
   files: \.kt$
-  require_serial: true
 - id: ktlint
   name: ktlint
   description: "Runs the ktlint linter and formatter on Kotlin source files."
